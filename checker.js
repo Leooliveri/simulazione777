@@ -1,4 +1,6 @@
-
+const app = require('./app')
+const express = require('express')
+const bodyParser = require('body-parser')
 const fetch = require('node-fetch')
 
 function check(url, invocationParameters,  expectedResultData, expectedResultStatus) {
